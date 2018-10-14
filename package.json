@@ -1,0 +1,35 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "This package to do the web crawling of given URL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "style": "eslint src test",
+    "style:fix": "eslint src test --fix",
+    "start": "node src/all-pages-screenshots.js"
+  },
+  "keywords": [
+    "crawler",
+    "scrapping",
+    "nodejs",
+    "chrome headless"
+  ],
+  "author": "Prabhay Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "fs-extra": "^7.0.0",
+    "path": "^0.12.7",
+    "puppeteer": "^1.9.0",
+    "should": "^13.2.3",
+    "underscore": "^1.9.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "test-console": "^1.1.0"
+  }
+}
