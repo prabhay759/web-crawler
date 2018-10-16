@@ -71,6 +71,7 @@ async function launchBrowser(options) {
 
     return await puppeteer.launch({
       headless: options && options.headless || true,
+      executablePath: 'google-chrome-unstable',
     });
   } catch (err) {
     log.error({
